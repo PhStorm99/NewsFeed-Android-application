@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<EditText android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:text="@string/news"
+    android:inputType="text"
+    android:autofillHints="search news"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/search"
+    android:drawableLeft="@drawable/news_search"/>
+
+<Button android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="search"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/news_button"
+    android:layout_below="@+id/search"/>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app">PROJECT</string>
+    <string name="app_name">NEWS</string>
+    <string name="news">search term</string>
+    <string name="title">news Application</string>
+    <string name="text">news</string>
+    <string name="delete">news</string>
+    <string name="search_news">news</string>
+    <string name="Foreign_currency">Foreign currency conversion</string>
+    <string name="News">News headlines </string>
+    <string name="Recipe">Recipe search </string>
+    <string name="car">Electric Car Charging Station </string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/car_img"
+        android:icon="@drawable/car"
+        android:title="car"
+        android:orderInCategory="10"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/currency_img"
+        android:icon="@drawable/currency"
+        android:orderInCategory="30"
+        android:title="@string/Foreign_currency"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/receipe_img"
+        android:icon="@drawable/recipe_search"
+        android:orderInCategory="30"
+        android:title="@string/Recipe"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/help"
+        android:icon="@drawable/setting"
+        android:title="help"
+        app:showAsAction="never"/>
+
+</menu>

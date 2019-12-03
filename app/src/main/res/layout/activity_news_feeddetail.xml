@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:title="Main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".news_first">
+
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:visibility="invisible"
+     />
+
+
+    <Button
+        android:id="@+id/save_article"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" save"
+        android:layout_below="@+id/progressBar"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TITLE"
+
+            android:padding="10dp"
+            android:layout_below="@+id/save_article"/>
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:padding="10dp"
+        android:layout_below="@+id/title"
+        />
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/title"
+        android:visibility="invisible"
+        />
+
+
+    <Button
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:visibility="invisible"
+        android:layout_below="@+id/description"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MORE DETAILS"
+        android:layout_below= "@+id/i1"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" view saved article"
+        android:layout_below="@+id/progressBar"
+        android:layout_toEndOf="@id/save_article"
+        android:layout_marginRight="120dp"/>
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/description"/>
+
+</RelativeLayout>

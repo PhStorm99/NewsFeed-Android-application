@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app">परियोजना</string>
+    <string name="app_name">
+समाचार</string>
+    <string name="news">शब्द को खोजें</string>
+    <string name="title">समाचार अनुप्रयोग</string>
+    <string name="text">समाचार</string>
+    <string name="delete">समाचार</string>
+    <string name="search_news">समाचार</string>
+    <string name="Foreign_currency">
+विदेशी मुद्रा रूपांतरण</string>
+    <string name="News">
+मुख्य समाचार</string>
+    <string name="Recipe">
+पकाने की विधि खोज </string>
+    <string name="car">
+इलेक्ट्रिक कार चार्जिंग स्टेशन </string>
+</resources>
